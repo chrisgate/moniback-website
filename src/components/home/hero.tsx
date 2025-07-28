@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 export default function Hero() {
   return (
-    <section className="h-[calc(100vh-var(--header-height))] bg-red-300 pt-20">
+    <section className="h-[calc(100vh-var(--header-height))] pt-20">
       <div className="flex flex-col items-center gap-y-[30px] px-4 md:px-6">
         <div className="mx-auto max-w-[781px] space-y-[18px] text-center">
           <h1 className="text-[4.24rem] leading-[76px] font-bold tracking-[-2px]">
