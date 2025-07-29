@@ -43,7 +43,11 @@
 @theme {
   --color-Gray-25: #f6f6f6;
   --color-Gray-50: #ecedec;
+  --color-Gray-100: #e3e4e3;
+  --color-Gray-300: #bdbfbd;
   --color-Gray-800: #262826;
+
+  --color-Gray-2-500: #667085;
 
   --color-Primary-300: #e9fe97;
   --color-Primary-500: #ddfd5f;
