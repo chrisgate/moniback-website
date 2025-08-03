@@ -5,6 +5,7 @@
 
 :root {
   --header-height: 99px;
+  --header-height-mobile: 54px;
 
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -45,6 +46,7 @@
   --color-Gray-50: #ecedec;
   --color-Gray-100: #e3e4e3;
   --color-Gray-300: #bdbfbd;
+  --color-Gray-600: #606360;
   --color-Gray-800: #262826;
 
   --color-Gray-2-500: #667085;
@@ -58,6 +60,7 @@
 @theme inline {
   --font-sans: var(--font-dm-sans);
   --height-header: var(--header-height);
+  --height-header-mobile: var(--header-height-mobile);
 
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -136,5 +139,8 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  button {
+    cursor: pointer;
   }
 }

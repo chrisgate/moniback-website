@@ -1,14 +1,14 @@
+import { Button } from "../ui/button";
 import Image from "next/image";
 import Container from "../ui/container";
 import MonibackLogo from "../ui/moniback-logo";
 import instagramLogo from "/public/svgs/instagram-logo.svg";
 import xLogo from "/public/svgs/x-logo.svg";
 import facebookLogo from "/public/svgs/facebook-logo.svg";
-import { Button } from "../ui/button";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-Gray-25">
       <Container className="space-y-20 py-[52px]">
         <div className="flex flex-col justify-between gap-6 lg:flex-row">
           <div className="flex flex-wrap justify-between gap-8 py-4 lg:flex-col">
