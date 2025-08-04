@@ -35,10 +35,10 @@ export default function Header() {
 
         <div className="hidden items-center gap-16 lg:flex xl:gap-[76px]">
           <nav className="group flex items-center gap-12 text-base">
-            <HoverCard>
-              <HoverCardTrigger className="flex cursor-pointer items-center gap-1">
+            <HoverCard openDelay={1}>
+              <HoverCardTrigger className="group flex cursor-pointer items-center gap-1">
                 <span>For Business</span>
-                <ChevronDown className="size-5 transition-all duration-500 group-data-[state=open]:rotate-180" />
+                <ChevronDown className="size-5 transition-transform duration-500 group-data-[state=open]:rotate-180" />
               </HoverCardTrigger>
               <HoverCardContent className="dropdown-shadow flex h-fit w-[172px] flex-col rounded-lg bg-white p-0">
                 <Link

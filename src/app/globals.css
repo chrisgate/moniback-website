@@ -143,4 +143,8 @@
   button {
     cursor: pointer;
   }
+
+  .dropdown-shadow {
+    box-shadow: 0px 8px 14px 0px #00000026 !important;
+  }
 }
