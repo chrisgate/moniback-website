@@ -5,10 +5,10 @@ export default function WhoItsFor() {
     <section className="bg-Gray-800">
       <Container className="space-y-10 py-[70px] lg:space-y-[54px] lg:py-[100px]">
         <div className="text-Gray-25 space-y-2 text-center">
-          <h2 className="text-[2.375rem] font-bold tracking-[-2px] lg:text-5xl">
+          <h2 className="text-[2.375rem] leading-[100%] font-bold tracking-[-2px] lg:text-5xl">
             Who It’s For
           </h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-base leading-[100%] lg:text-lg">
             Whether you run a corner shop or a growing chain, Moniback helps you
             grow smarter.
           </p>

@@ -6,7 +6,7 @@ import promotionDetailsImage from "/public/images/mobile-device-showing-promotio
 
 export default function KeyBenefits() {
   return (
-    <section className="">
+    <section>
       <Container className="space-y-10 py-[100px] lg:space-y-[78px]">
         <h2 className="text-center text-[2.375rem] font-bold tracking-[-2px] lg:text-5xl">
           Key Benefits
