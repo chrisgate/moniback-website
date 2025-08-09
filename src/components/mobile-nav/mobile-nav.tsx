@@ -36,15 +36,15 @@ export default function MobileNav() {
                 </AccordionTrigger>
                 <AccordionContent className="flex flex-col">
                   <Link
-                    href="/for-business/retailer"
                     onClick={() => setIsOpen(false)}
+                    href="/for-business/retailer"
                     className="px-3.5 py-2.5"
                   >
                     Retailer
                   </Link>
                   <Link
-                    href="/for-business/fcmg"
                     onClick={() => setIsOpen(false)}
+                    href="/for-business/fmcg"
                     className="px-3.5 py-2.5"
                   >
                     FMCG

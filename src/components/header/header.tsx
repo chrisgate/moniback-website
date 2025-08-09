@@ -48,7 +48,7 @@ export default function Header() {
                   Retailer
                 </Link>
                 <Link
-                  href="/for-business/fcmg"
+                  href="/for-business/fmcg"
                   className="px-3.5 py-2.5 text-sm"
                 >
                   FMCG
