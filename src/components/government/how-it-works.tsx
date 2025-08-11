@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Container from "@/components/ui/container";
-import noteIcon from "/public/svgs/note.svg";
-import radarIcon from "/public/svgs/radar.svg";
-import customerClaimIcon from "/public/svgs/customer-claim.svg";
-import chartIcon from "/public/svgs/chart.svg";
+import sendIcon from "/public/svgs/send-square.svg";
+import ticketStarIcon from "/public/svgs/ticket-star.svg";
+import locationIcon from "/public/svgs/location.svg";
+import chartIcon from "/public/svgs/chart-2.svg";
+import walletIcon from "/public/svgs/wallet-add.svg";
 
 export default function HowItWorks() {
   return (
@@ -17,42 +18,42 @@ export default function HowItWorks() {
           <li className="flex items-center gap-4 px-4 pt-5 pb-[34px] lg:px-6 lg:pt-6 lg:pb-[38px]">
             <div className="bg-Gray-50 flex size-[38px] shrink-0 items-center justify-center rounded-full lg:size-[50px]">
               <Image
-                src={noteIcon}
-                alt="note"
+                src={sendIcon}
+                alt="send square"
                 className="size-[18.24px] lg:size-6"
               />
             </div>
 
             <h3 className="text-xl font-medium tracking-[-1px] lg:text-2xl">
-              Set up your branded offer
+              Government uploads beneficiaries + selects vendors
             </h3>
           </li>
 
           <li className="flex items-center gap-4 px-4 pt-5 pb-[34px] lg:px-6 lg:pt-6 lg:pb-[38px]">
             <div className="bg-Gray-50 flex size-[38px] shrink-0 items-center justify-center rounded-full lg:size-[50px]">
               <Image
-                src={radarIcon}
-                alt="radar"
+                src={ticketStarIcon}
+                alt="ticket star"
                 className="size-[18.24px] lg:size-6"
               />
             </div>
 
             <h3 className="text-xl font-medium tracking-[-1px] lg:text-2xl">
-              Push it into Moniback’s loyalty feed
+              Moniback issues digital vouchers
             </h3>
           </li>
 
           <li className="flex items-center gap-4 px-4 pt-5 pb-[34px] lg:px-6 lg:pt-6 lg:pb-[38px]">
             <div className="bg-Gray-50 flex size-[38px] shrink-0 items-center justify-center rounded-full lg:size-[50px]">
               <Image
-                src={customerClaimIcon}
-                alt="customer claim"
+                src={locationIcon}
+                alt="location"
                 className="size-[18.24px] lg:size-6"
               />
             </div>
 
             <h3 className="text-xl font-medium tracking-[-1px] lg:text-2xl">
-              Customers claim & redeem in-store
+              Citizens claim + redeem at verified locations
             </h3>
           </li>
 
@@ -66,7 +67,21 @@ export default function HowItWorks() {
             </div>
 
             <h3 className="text-xl font-medium tracking-[-1px] lg:text-2xl">
-              Receive live campaign data and insights
+              Government tracks usage in real-time
+            </h3>
+          </li>
+
+          <li className="flex items-center gap-4 px-4 pt-5 pb-[34px] lg:px-6 lg:pt-6 lg:pb-[38px]">
+            <div className="bg-Gray-50 flex size-[38px] shrink-0 items-center justify-center rounded-full lg:size-[50px]">
+              <Image
+                src={walletIcon}
+                alt="wallet add"
+                className="size-[18.24px] lg:size-6"
+              />
+            </div>
+
+            <h3 className="text-xl font-medium tracking-[-1px] lg:text-2xl">
+              Vendors are reimbursed quickly and digitally
             </h3>
           </li>
         </ul>

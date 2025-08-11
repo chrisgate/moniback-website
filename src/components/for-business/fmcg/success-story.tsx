@@ -1,24 +1,24 @@
-export default function WordsFromCustomers() {
+export default function SuccessStory() {
   return (
     <section>
       <div className="mx-auto grid max-w-[1600px] lg:min-h-[766px] lg:grid-cols-2">
         <div className="bg-Gray-25 pt-[70px] pb-[70px]">
           <div className="container mx-auto h-full pr-6 pl-4 lg:pl-10 xl:pl-10 2xl:pl-14">
-            <div className="flex h-full max-w-[80rem] flex-col justify-between gap-y-6">
+            <div className="flex h-full max-w-[438px] flex-col justify-between gap-y-6">
               <h2 className="text-[2.375rem] leading-[100%] font-bold tracking-[-2px] lg:text-5xl">
-                Words directly from our Customers
+                Success Story Snapshot
               </h2>
 
               <div className="max-w-[358px] space-y-2.5 rounded-[30px] bg-white px-6 py-8 lg:py-10">
                 <p className="text-2xl leading-[100%] font-bold lg:text-[1.875rem]">
-                  Why It Works
+                  Why Moniback?
                 </p>
-                <p className="text-sm lg:text-base">
-                  Customers are already on their phones, we meet them there. Our
-                  loyalty tools are fun, flexible, and feel like social media.
-                  You get more foot traffic, bigger baskets, and better
-                  retention.
-                </p>
+                <ul className="list-disc pl-4 text-sm lg:text-base">
+                  <li>Built-in network of verified retailers</li>
+                  <li>Low-cost, high-impact digital activations</li>
+                  <li>Engages consumers directly, at eye-level</li>
+                  <li>Works across general and modern trade</li>
+                </ul>
               </div>
             </div>
           </div>

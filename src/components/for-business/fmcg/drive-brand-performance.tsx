@@ -10,7 +10,7 @@ export default function DriveBrandPerformance() {
         <div className="flex-1">
           <div className="mx-auto max-w-[557px] space-y-[30px] lg:mx-0">
             <div className="space-y-[18px] text-center lg:text-left">
-              <h2 className="text-[2.375rem] leading-[100%] font-bold tracking-[-2px] lg:text-5xl">
+              <h2 className="text-[2.375rem] leading-[100%] font-bold tracking-[-2px] lg:text-[3.625rem]">
                 Ready to drive brand performance ?
               </h2>
               <p className="text-base leading-[100%] lg:text-xl">
@@ -18,11 +18,14 @@ export default function DriveBrandPerformance() {
               </p>
             </div>
 
-            <div className="flex items-center justify-center gap-3 lg:justify-normal">
-              <Button className="bg-Gray-800 text-Gray-25 w-[189px]">
+            <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-normal">
+              <Button className="bg-Gray-800 text-Gray-25 w-full px-[30px] lg:w-fit">
                 Launch a campaign
               </Button>
-              <Button variant="secondary" className="w-[130px]">
+              <Button
+                variant="secondary"
+                className="w-full px-[21.5px] lg:w-fit"
+              >
                 Book a Demo
               </Button>
             </div>

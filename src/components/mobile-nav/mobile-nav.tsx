@@ -53,8 +53,24 @@ export default function MobileNav() {
               </AccordionItem>
             </Accordion>
           </li>
-          <li>Government</li>
-          <li>Charity</li>
+          <li>
+            <Link
+              onClick={() => setIsOpen(false)}
+              href="/government"
+              className="size-full"
+            >
+              Government
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={() => setIsOpen(false)}
+              href="/charity"
+              className="size-full"
+            >
+              Charity
+            </Link>
+          </li>
           <li>Why we give</li>
           <li>About us</li>
         </ul>

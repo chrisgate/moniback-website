@@ -55,8 +55,8 @@ export default function Header() {
                 </Link>
               </HoverCardContent>
             </HoverCard>
-            <Link href="#">Government</Link>
-            <Link href="#">Charity</Link>
+            <Link href="/government">Government</Link>
+            <Link href="/charity">Charity</Link>
             <Link href="#">Why we give</Link>
             <Link href="#">About us</Link>
           </nav>
