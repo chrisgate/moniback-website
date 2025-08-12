@@ -71,8 +71,24 @@ export default function MobileNav() {
               Charity
             </Link>
           </li>
-          <li>Why we give</li>
-          <li>About us</li>
+          <li>
+            <Link
+              onClick={() => setIsOpen(false)}
+              href="/why-we-give"
+              className="size-full"
+            >
+              Why we give
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={() => setIsOpen(false)}
+              href="/about-us"
+              className="size-full"
+            >
+              About us
+            </Link>
+          </li>
         </ul>
 
         <Button>Get started</Button>

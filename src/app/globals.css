@@ -55,6 +55,7 @@
 
   --color-Primary-50: #faffe7;
   --color-Primary-300: #e9fe97;
+  --color-Primary-400: #e2fd77;
   --color-Primary-500: #ddfd5f;
   --color-Primary-700: #89ac02;
 
@@ -150,6 +151,12 @@
   body {
     @apply bg-background text-foreground;
   }
+  .custom-marker {
+    @apply before:bg-Primary-700 relative pl-[22px] before:absolute before:top-1/2 before:left-0 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rotate-[50deg] before:rounded-[3px] before:content-[''] lg:pl-6 lg:before:h-3 lg:before:w-3;
+  }
+  .custom-marker-2 {
+    @apply before:bg-Primary-300 relative pl-[22px] before:absolute before:top-1/2 before:left-0 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rotate-[50deg] before:rounded-[3px] before:content-[''] lg:pl-6 lg:before:h-3 lg:before:w-3;
+  }
   button {
     cursor: pointer;
   }
@@ -163,10 +170,7 @@
   .dropdown-shadow {
     box-shadow: 0px 8px 14px 0px #00000026 !important;
   }
-  .custom-marker {
-    @apply before:bg-Primary-700 relative pl-[22px] before:absolute before:top-1/2 before:left-0 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rotate-[50deg] before:rounded-[3px] before:content-[''] lg:pl-6 lg:before:h-3 lg:before:w-3;
-  }
-  .custom-marker-2 {
-    @apply before:bg-Primary-300 relative pl-[22px] before:absolute before:top-1/2 before:left-0 before:h-2.5 before:w-2.5 before:-translate-y-1/2 before:rotate-[50deg] before:rounded-[3px] before:content-[''] lg:pl-6 lg:before:h-3 lg:before:w-3;
+  .bx-shadow-1 {
+    box-shadow: 0px 8px 14px 0px #0000000d;
   }
 }

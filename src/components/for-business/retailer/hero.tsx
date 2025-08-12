@@ -5,7 +5,7 @@ import heroImage from "/public/images/retailer-hero.png";
 
 export default function Hero() {
   return (
-    <section className="bg-white">
+    <section>
       <Container className="flex flex-col justify-between gap-x-8 gap-y-[72px] pt-[50px] pb-16 lg:flex-row lg:pb-[88px]">
         <div className="w-full space-y-[30px] lg:w-[638px]">
           <div className="space-y-3 text-center lg:space-y-[18px] lg:text-left">

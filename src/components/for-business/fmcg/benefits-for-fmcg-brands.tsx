@@ -12,15 +12,21 @@ export default function BenefitsForFMCGBrands() {
               <p className="text-[1.75rem] leading-[100%] font-bold tracking-[-2px] lg:text-[1.875rem]">
                 Move More Product
               </p>
-              <p className="text-Gray-600 text-lg font-semibold">
+              <p className="text-Gray-600 text-lg">
                 Create gamified offers that reward customers for buying your
                 products in participating stores.
               </p>
             </div>
           </div>
 
-          <div className="flex min-h-[343px] items-end justify-center rounded-[20px] bg-[url(/images/round-spiral.png)] bg-cover bg-no-repeat px-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6">
-            <Image src={image1} alt="black woman with a gift smiling" />
+          <div className="relative flex min-h-[343px] items-end justify-center overflow-hidden rounded-[20px] bg-[url(/images/round-spiral.png)] bg-cover bg-no-repeat px-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6">
+            <div className="bg-Primary-400/50 absolute inset-0"></div>
+
+            <Image
+              src={image1}
+              alt="black woman with a gift smiling"
+              className="relative h-[343px] object-cover lg:h-[354px]"
+            />
           </div>
 
           <div className="min-h-[343px] rounded-[20px] bg-white px-5 py-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6 lg:py-10">
@@ -28,7 +34,7 @@ export default function BenefitsForFMCGBrands() {
               <p className="text-[1.75rem] leading-[100%] font-bold tracking-[-2px] lg:text-[1.875rem]">
                 Own the Loyalty Feed
               </p>
-              <p className="text-Gray-600 text-lg font-semibold">
+              <p className="text-Gray-600 text-lg">
                 Your brand shows up in Moniback’s scrollable feed right where
                 consumers are already paying attention.
               </p>

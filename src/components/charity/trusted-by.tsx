@@ -8,7 +8,7 @@ import restaurantIcon from "/public/svgs/restaurant.svg";
 
 export default function TrustedBy() {
   return (
-    <section className="bg-white">
+    <section>
       <Container className="space-y-8 py-[70px] lg:space-y-[38px] lg:py-12">
         <h2 className="text-center text-base leading-[30px] tracking-[5px] lg:text-xl">
           TRUSTED BY

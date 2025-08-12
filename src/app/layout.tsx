@@ -26,9 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${dmSans.className} bg-Gray-50 text-Gray-800 text-sm antialiased`}
-      >
+      <body className={`${dmSans.className} text-Gray-800 text-sm antialiased`}>
         <MobileNavProvider>
           <MobileNav />
           <Header />

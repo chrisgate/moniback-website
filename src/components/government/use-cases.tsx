@@ -8,7 +8,7 @@ import image5 from "/public/images/african-man-in-a-train.png";
 
 export default function UseCases() {
   return (
-    <section className="bg-white">
+    <section>
       <Container className="space-y-10 py-[70px] lg:space-y-[55px] lg:py-[100px]">
         <div className="space-y-2 text-center">
           <h2 className="text-[2.375rem] font-bold tracking-[-2px] lg:text-5xl">

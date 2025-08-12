@@ -7,7 +7,7 @@ import chartIcon from "/public/svgs/chart.svg";
 
 export default function HowItWorks() {
   return (
-    <section className="bg-white">
+    <section>
       <Container className="flex flex-col items-start gap-x-52 gap-y-10 py-[70px] lg:flex-row lg:py-[100px] xl:gap-x-[226px]">
         <h2 className="text-center text-[2.375rem] font-bold tracking-[-2px] lg:text-5xl">
           How it works

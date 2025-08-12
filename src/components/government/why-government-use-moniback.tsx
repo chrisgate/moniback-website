@@ -2,7 +2,7 @@ import Container from "../ui/container";
 
 export default function WhyGovernmentUseMoniback() {
   return (
-    <section className="bg-white">
+    <section>
       <Container className="space-y-[55px] py-[70px] lg:py-[100px]">
         <div className="space-y-2 text-center">
           <h2 className="text-[2.375rem] font-bold tracking-[-2px] lg:text-5xl">

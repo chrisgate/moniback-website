@@ -5,7 +5,7 @@ import heroImage from "/public/images/government-hero-image.png";
 
 export default function Hero() {
   return (
-    <section className="bg-white">
+    <section>
       <Container className="flex flex-col justify-between gap-x-8 gap-y-[72px] py-[50px] lg:flex-row lg:py-16">
         <div className="space-y-[30px] lg:w-[519px] lg:pt-20">
           <div className="space-y-3 text-center lg:space-y-[18px] lg:text-left">
