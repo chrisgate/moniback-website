@@ -12,12 +12,12 @@ export default function DownloadApp() {
         <Image
           src={MobileDevices}
           alt="two mobile devices"
-          className="h-[630px] w-[560px] object-cover lg:order-2"
+          className="mx-auto h-[344.23px] w-[306px] object-cover lg:order-2 lg:h-[629.85px] lg:w-[559.89px]"
         />
 
         <div className="w-full max-w-[517px] space-y-8 lg:order-1 lg:space-y-[30px]">
           <div className="space-y-2 text-center lg:space-y-[18px] lg:text-left">
-            <h2 className="text-[2.375rem] leading-[66px] font-bold tracking-[-2px] lg:text-[3.625rem]">
+            <h2 className="text-[2.375rem] leading-[100%] font-bold tracking-[-2px] lg:text-[3.625rem] lg:leading-[66px]">
               Download the app today
             </h2>
             <p className="text-base leading-[100%] lg:text-xl">

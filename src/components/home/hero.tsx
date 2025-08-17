@@ -9,7 +9,7 @@ import restaurantImage from "/public/images/hero-minimalistic-restaurant.png";
 
 export default function Hero() {
   return (
-    <section className="bg-Gray-50 flex min-h-[calc(947px-var(--header-height))] flex-col justify-between gap-y-[60px] overflow-hidden">
+    <section className="bg-Gray-50 flex min-h-[647px] flex-col justify-between gap-y-[60px] overflow-hidden lg:min-h-[calc(947px-var(--header-height))]">
       <Container className="flex flex-col items-center gap-y-[30px] pt-12 lg:pt-20">
         <div className="mx-auto max-w-[781px] space-y-[18px] text-center">
           <h1 className="text-4xl font-bold tracking-[-1px] lg:text-[4.24rem] lg:leading-[76px] lg:tracking-[-2px]">
@@ -23,7 +23,7 @@ export default function Hero() {
         <Button className="w-[170px]">Get the app</Button>
       </Container>
 
-      <div className="flex items-end justify-between gap-3 md:gap-[22px]">
+      <div className="flex items-end justify-center gap-3 md:gap-[22px] lg:justify-between">
         <Image
           src={giftsImage}
           alt="plenty gift boxes and shopping bags"

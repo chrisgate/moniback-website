@@ -7,8 +7,8 @@ export default function BenefitsForFMCGBrands() {
     <section className="bg-Gray-25">
       <Container className="space-y-6 py-[70px] lg:py-[100px]">
         <div className="grid gap-6 lg:grid-cols-3">
-          <div className="min-h-[343px] rounded-[20px] bg-white px-5 py-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6 lg:py-10">
-            <div className="space-y-1.5">
+          <div className="relative min-h-[343px] overflow-hidden rounded-[20px] bg-white px-5 py-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6 lg:py-10">
+            <div className="relative space-y-1.5">
               <p className="text-[1.75rem] leading-[100%] font-bold tracking-[-2px] lg:text-[1.875rem]">
                 Move More Product
               </p>
@@ -17,6 +17,9 @@ export default function BenefitsForFMCGBrands() {
                 products in participating stores.
               </p>
             </div>
+
+            <div className="bg-Primary-600 bx-shadow-2 absolute bottom-10 left-16 size-[72.88px] rounded-full sm:left-[112px] lg:left-[92px] lg:size-[89px]"></div>
+            <div className="bg-Primary-600 bx-shadow-2 absolute right-4 bottom-0 size-[143.75px] translate-y-1/3 rounded-full lg:right-6 lg:size-[175.54px]"></div>
           </div>
 
           <div className="relative flex min-h-[343px] items-end justify-center overflow-hidden rounded-[20px] bg-[url(/images/round-spiral.png)] bg-cover bg-no-repeat px-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6">
@@ -29,8 +32,8 @@ export default function BenefitsForFMCGBrands() {
             />
           </div>
 
-          <div className="min-h-[343px] rounded-[20px] bg-white px-5 py-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6 lg:py-10">
-            <div className="space-y-1.5">
+          <div className="relative min-h-[343px] overflow-hidden rounded-[20px] bg-white px-5 py-5 lg:min-h-[354px] lg:rounded-[30px] lg:px-6 lg:py-10">
+            <div className="relative space-y-1.5">
               <p className="text-[1.75rem] leading-[100%] font-bold tracking-[-2px] lg:text-[1.875rem]">
                 Own the Loyalty Feed
               </p>
@@ -39,6 +42,9 @@ export default function BenefitsForFMCGBrands() {
                 consumers are already paying attention.
               </p>
             </div>
+
+            <div className="bg-Primary-600 bx-shadow-2 absolute right-1/2 bottom-0 size-[143.75px] translate-x-1/2 translate-y-1/2 rounded-full lg:size-[175.54px]"></div>
+            <div className="bg-Primary-600 bx-shadow-2 absolute right-2 bottom-4 size-[72.88px] rounded-full sm:right-4 lg:right-6 lg:bottom-6 lg:size-[89px]"></div>
           </div>
         </div>
 

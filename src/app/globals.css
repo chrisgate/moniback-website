@@ -57,6 +57,7 @@
   --color-Primary-300: #e9fe97;
   --color-Primary-400: #e2fd77;
   --color-Primary-500: #ddfd5f;
+  --color-Primary-600: #c0f103;
   --color-Primary-700: #89ac02;
 
   --color-Primary-2-50: #e8f5fc;
@@ -172,5 +173,8 @@
   }
   .bx-shadow-1 {
     box-shadow: 0px 8px 14px 0px #0000000d;
+  }
+  .bx-shadow-2 {
+    box-shadow: -24px -10px 35px 3px #ddfd5f inset;
   }
 }
