@@ -137,7 +137,7 @@ export default function OurWhy() {
         <div className="h-[318px] rounded-[6.31px] bg-[url(/images/volunteers-giving-food.png)] bg-cover bg-no-repeat lg:h-[505.26px] lg:w-[543.56px] lg:rounded-[10px]"></div>
       </Container>
 
-      <div className="min-h-[452px] bg-[url(/images/food-donation-2.png)] bg-cover bg-no-repeat lg:min-h-[588px]">
+      <div className="min-h-[452px] bg-[url(/images/food-donation-2-mobile.png)] bg-cover bg-no-repeat lg:min-h-[588px] lg:bg-[url(/images/food-donation-2.png)]">
         <Container className="flex min-h-[718px] items-end py-11 lg:py-[74px]">
           <div className="max-w-[580px] space-y-7 rounded-[20px] bg-white px-[30px] py-10 lg:space-y-8">
             <div className="space-y-2">
