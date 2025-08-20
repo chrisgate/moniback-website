@@ -5,17 +5,31 @@ import moniback from "/public/svgs/m-moniback-small.svg";
 export default function OurMission() {
   return (
     <>
-      <section className="bg-black">
-        <Container className="flex min-h-[511px] items-center justify-center py-6">
-          <div className="w-full max-w-[580px] space-y-2 rounded-[20px] bg-white px-4 py-[60px] text-center lg:space-y-3.5 lg:px-[50px]">
-            <h2 className="text-[1.375rem] font-semibold lg:text-5xl">
-              Our Mission
-            </h2>
-            <p className="text-base font-medium lg:text-lg">
-              To use loyalty, social engagement, and everyday commerce to build
-              a stronger, more inclusive economy; one deal, one community, one
-              act of giving at a time.
-            </p>
+      <section className="relative bg-black">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover"
+        >
+          <source src="/videos/video-1.mp4" type="video/mp4" />
+          {/* Fallback element if video isn't supported */}
+          <div className="absolute inset-0 bg-black"></div>
+        </video>
+
+        <Container className="relative flex min-h-[511px] items-center justify-center py-6">
+          <div className="flex min-h-[259px] w-full max-w-[580px] items-center justify-center rounded-[20px] bg-white p-4 text-center lg:space-y-3.5 lg:p-[50px]">
+            <div className="space-y-2">
+              <h2 className="text-[1.375rem] font-semibold lg:text-5xl">
+                Our Mission
+              </h2>
+              <p className="text-base font-medium lg:text-lg">
+                To use loyalty, social engagement, and everyday commerce to
+                build a stronger, more inclusive economy; one deal, one
+                community, one act of giving at a time.
+              </p>
+            </div>
           </div>
         </Container>
       </section>
