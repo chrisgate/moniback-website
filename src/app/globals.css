@@ -177,4 +177,58 @@
   .bx-shadow-2 {
     box-shadow: -24px -10px 35px 3px #ddfd5f inset;
   }
+  /* --- Center pulse (straight line) --- */
+  @keyframes center-flow {
+    0% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+    66.66% {
+      /* first 2s of 3s */
+      transform: translateY(150%);
+      opacity: 1;
+    }
+    67%,
+    100% {
+      opacity: 0; /* hide while curves animate */
+    }
+  }
+
+  .center-pulse {
+    animation: center-flow 3s linear infinite;
+  }
+
+  /* --- Curve pulse (runs after center) --- */
+  @keyframes curve-flow {
+    0%,
+    66.66% {
+      offset-distance: 0%;
+      opacity: 0; /* invisible while center runs */
+    }
+    67% {
+      opacity: 1;
+    } /* appear when center finishes */
+    100% {
+      offset-distance: 100%;
+      opacity: 0; /* hide immediately after run */
+    }
+  }
+
+  .curve-pulse-left {
+    offset-path: path(
+      "M89.0338 0C89.0338 39 71.6338 54.2 34.0338 55C-3.56617 55.8 3.53351 88.5 3.53352 125"
+    );
+    offset-distance: 0%;
+    offset-rotate: 0deg;
+    animation: curve-flow 3s linear infinite;
+  }
+
+  .curve-pulse-right {
+    offset-path: path(
+      "M3.0004 0C3.0004 39 20.4004 54.2 58.0004 55C95.6003 55.8 88.5007 88.5 88.5007 125"
+    );
+    offset-distance: 0%;
+    offset-rotate: 0deg;
+    animation: curve-flow 3s linear infinite;
+  }
 }

@@ -19,8 +19,8 @@ export default function UseCases() {
           </p>
         </div>
 
-        <div className="lg:space-y-[18px]">
-          <div className="border-Gray-50 grid gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-10">
+        <div className="lg:space-y-4">
+          <div className="border-Gray-50 group grid items-center gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-6">
             <p className="text-[1.875rem] font-bold tracking-[-2px]">1.</p>
             <p className="text-[1.875rem] font-bold tracking-[-2px]">
               Food Subsidies
@@ -29,14 +29,16 @@ export default function UseCases() {
               Partner with small businesses to boost economic activity
             </p>
 
-            <Image
-              src={image1}
-              alt="nutrition illustration"
-              className="mt-3.5 h-[151px] w-full rounded-lg object-cover sm:h-44 sm:rounded-[20px] md:h-56 lg:hidden"
-            />
+            <div className="lg:pl-20">
+              <Image
+                src={image1}
+                alt="nutrition illustration"
+                className="mt-3.5 h-[151px] w-full rounded-lg object-cover transition-opacity duration-1000 sm:h-44 md:h-56 lg:mt-0 lg:h-[127.81px] lg:w-[245.82px] lg:opacity-0 lg:group-hover:opacity-100"
+              />
+            </div>
           </div>
 
-          <div className="border-Gray-50 grid gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-10">
+          <div className="border-Gray-50 group grid items-center gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-6">
             <p className="text-[1.875rem] font-bold tracking-[-2px]">2.</p>
             <p className="text-[1.875rem] font-bold tracking-[-2px]">
               SME Incentives
@@ -45,14 +47,16 @@ export default function UseCases() {
               Issue digital vouchers for targeted support
             </p>
 
-            <Image
-              src={image2}
-              alt="incentives"
-              className="mt-3.5 h-[151px] w-full rounded-lg object-cover sm:h-44 sm:rounded-[20px] md:h-56 lg:hidden"
-            />
+            <div className="lg:pl-20">
+              <Image
+                src={image2}
+                alt="incentives"
+                className="mt-3.5 h-[151px] w-full rounded-lg object-cover transition-opacity duration-1000 sm:h-44 md:h-56 lg:mt-0 lg:h-[127.81px] lg:w-[245.82px] lg:opacity-0 lg:group-hover:opacity-100"
+              />
+            </div>
           </div>
 
-          <div className="border-Gray-50 grid gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-10">
+          <div className="border-Gray-50 group grid items-center gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-6">
             <p className="text-[1.875rem] font-bold tracking-[-2px]">3.</p>
             <p className="text-[1.875rem] font-bold tracking-[-2px]">
               Youth Programs
@@ -61,14 +65,16 @@ export default function UseCases() {
               Track redemptions in real-time
             </p>
 
-            <Image
-              src={image3}
-              alt="happy black people having fun together"
-              className="mt-3.5 h-[151px] w-full rounded-lg object-cover sm:h-44 sm:rounded-[20px] md:h-56 lg:hidden"
-            />
+            <div className="lg:pl-20">
+              <Image
+                src={image3}
+                alt="happy black people having fun together"
+                className="mt-3.5 h-[151px] w-full rounded-lg object-cover transition-opacity duration-1000 sm:h-44 md:h-56 lg:mt-0 lg:h-[127.81px] lg:w-[245.82px] lg:opacity-0 lg:group-hover:opacity-100"
+              />
+            </div>
           </div>
 
-          <div className="border-Gray-50 grid gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-10">
+          <div className="border-Gray-50 group grid items-center gap-1.5 border-b px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-6">
             <p className="text-[1.875rem] font-bold tracking-[-2px]">4.</p>
             <p className="text-[1.875rem] font-bold tracking-[-2px]">
               Disaster Relief
@@ -77,14 +83,16 @@ export default function UseCases() {
               Ensure funds reach the right hands
             </p>
 
-            <Image
-              src={image4}
-              alt="neighbors helping each other"
-              className="mt-3.5 h-[151px] w-full rounded-lg object-cover sm:h-44 sm:rounded-[20px] md:h-56 lg:hidden"
-            />
+            <div className="lg:pl-20">
+              <Image
+                src={image4}
+                alt="neighbors helping each other"
+                className="mt-3.5 h-[151px] w-full rounded-lg object-cover transition-opacity duration-1000 sm:h-44 md:h-56 lg:mt-0 lg:h-[127.81px] lg:w-[245.82px] lg:opacity-0 lg:group-hover:opacity-100"
+              />
+            </div>
           </div>
 
-          <div className="grid gap-1.5 px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-10">
+          <div className="group grid items-center gap-1.5 px-4 py-[30px] lg:grid-cols-[74px_393px_411px_1fr] lg:px-6 lg:py-6">
             <p className="text-[1.875rem] font-bold tracking-[-2px]">5.</p>
             <p className="text-[1.875rem] font-bold tracking-[-2px]">
               Fuel or Transport Support
@@ -93,11 +101,13 @@ export default function UseCases() {
               Engage citizens through a familiar platform
             </p>
 
-            <Image
-              src={image5}
-              alt="african man in a train"
-              className="mt-3.5 h-[151px] w-full rounded-lg object-cover sm:h-44 sm:rounded-[20px] md:h-56 lg:hidden"
-            />
+            <div className="lg:pl-20">
+              <Image
+                src={image5}
+                alt="african man in a train"
+                className="mt-3.5 h-[151px] w-full rounded-lg object-cover transition-opacity duration-1000 sm:h-44 md:h-56 lg:mt-0 lg:h-[127.81px] lg:w-[245.82px] lg:opacity-0 lg:group-hover:opacity-100"
+              />
+            </div>
           </div>
         </div>
       </Container>
