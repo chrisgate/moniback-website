@@ -1,0 +1,30 @@
+{
+  "routes": [
+    {
+      "route": "/_next/*",
+      "serve": "/_next/*"
+    },
+    {
+      "route": "/images/*",
+      "serve": "/images/*"
+    },
+    {
+      "route": "/svgs/*",
+      "serve": "/svgs/*"
+    },
+    {
+      "route": "/videos/*",
+      "serve": "/videos/*"
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "platform": {
+    "apiRuntime": "node:18"
+  }
+}
